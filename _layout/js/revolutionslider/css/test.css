@@ -1,0 +1,107 @@
+/* CSS Document */
+
+
+
+.btn-new {
+	background: #003da6;
+	border: none;
+	font-weight: bold;
+}
+.hb-logon {
+	background: #003DA6 url('../../../images/white-right.png') no-repeat 90%;
+	color: white;
+	padding-right: 40px;
+}
+
+.caption.text.sfb.tp-caption h2 {
+   	font-size: 52px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 55px;
+    font-family: 'Georgia';
+}
+
+.caption.text.sfb.tp-caption p {
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Georgia';
+	font-weight: 600;
+}
+
+
+@media (min-width: 1700px){
+.hb {
+    left: 80px;
+}
+.hbheader {
+    
+}
+}
+@media (max-width: 1699px) {
+.hb {
+    
+}
+.hbheader {
+    
+}
+}
+@media only screen and (max-width: 1580px) {
+	.caption.text.sfb.tp-caption.start {
+		left: 470px !important;
+	}
+}
+
+
+@media only screen and (max-width: 1201px) {
+	.caption.text.sfb.tp-caption.start {
+    left: 410px !important;
+}
+}
+
+
+@media only screen and (max-width: 1150px) {
+	.caption.text.sfb.tp-caption.start {
+		left: 370px !important;
+	}
+}
+
+@media only screen and (max-width: 980px) {
+	.caption.text.sfb.tp-caption.start {
+		left: 70px !important;
+	}
+	
+}
+@media (max-width: 1200px) and (min-width: 978px){
+	.hb {
+		width: 360px !important;
+	}
+	.caption.text a.btn {
+    font-size: 12px !important;
+}
+}
+
+
+.holiday-hide {
+		display: none;
+	}
+@media only screen and (max-width: 767px) {
+	.holiday-show {
+		display: none;
+	}
+	.holiday-hide {
+		display: block;
+	}
+	.caption.text.sfb.tp-caption h2 {
+    font-size: 18px;
+    line-height: 20px;
+	margin-top: 5px;
+}
+	.caption.text.sfb.tp-caption p {
+		font-size: 14px;
+	}
+	.caption.text a.btn {
+		position: relative;
+		bottom: 10px;
+		font-size: 10px;
+	}
+}

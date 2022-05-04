@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8"> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
+
+<title>Test Modal Box</title>
+
+
+<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="./css/bootstrap-theme.css">
+<link rel="stylesheet" type="text/css" href="./css/styles.css">
+
+
+<!-- Google Tag Manager --> 
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': 
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], 
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); 
+})(window,document,'script','dataLayer','GTM-5DLR3MW');</script> 
+<!-- End Google Tag Manager -->
+</head>
+
+<body>
+
+<div align="center" style="padding: 25px; visible: none;">
+<button type="button" id="ButtonOne" class="btn btn-success btn-lg" aria-haspopup="true" aria-expanded="false" data-toggle="modal" data-target="#66ab9c2f-47f0-a9cc-4a0a-560af19cc241">
+              Modal One <span class="glyphicon glyphicon-check"></span>
+            </button>
+</div>
+<div align="center" style="padding: 25px; visible: none;">
+<button type="button" class="btn btn-success btn-lg" aria-haspopup="true" aria-expanded="false" data-toggle="modal" data-target="#c341eb57-1282-f3e7-4c81-560c04624a62">
+              Modal Two <span class="glyphicon glyphicon-check"></span>
+            </button>
+</div>
+			
+			
+			
+<!-- MODAL BOXES -->
+<!-- Modal -->
+      <div class="modal fade" id="66ab9c2f-47f0-a9cc-4a0a-560af19cc241" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h3 style="font-size: 22px;" class="lmcur-dark-blue" id="myModalLabel" align="center">Modal One</h3>
+            </div>
+            <div class="modal-body">
+              <form action="?" method="post" id="vote_66ab9c2f_47f0_a9cc_4a0a_560af19cc241"><div id="hide_me_66ab9c2f_47f0_a9cc_4a0a_560af19cc241"><h4>Sub Headline Here</h4><p>Text Here</p>
+              <p>Enter Your Code:  <input type="text" name="vote_code" value="" /> <input class="btn btn-default" type="submit" name="submit" value="Submit" /><input type="hidden" name="vid" value="66ab9c2f-47f0-a9cc-4a0a-560af19cc241" /><input type="hidden" name="div_id" value="66ab9c2f_47f0_a9cc_4a0a_560af19cc241" /></div>
+                  <div class="form_result_66ab9c2f_47f0_a9cc_4a0a_560af19cc241"> </div>
+            </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- Modal -->
+      <div class="modal fade" id="c341eb57-1282-f3e7-4c81-560c04624a62" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h3 style="font-size: 22px;" class="lmcur-dark-blue" id="myModalLabel" align="center">Modal Two</h3>
+            </div>
+            <div class="modal-body">
+              <form action="?" method="post" id="vote_66ab9c2f_47f0_a9cc_4a0a_560af19cc241"><div id="hide_me_66ab9c2f_47f0_a9cc_4a0a_560af19cc241"><h4>Sub Headline Here</h4><p>Text Here</p>
+              <p>Enter Your Code:  <input type="text" name="vote_code" value="" /> <input class="btn btn-default" type="submit" name="submit" value="Submit" /><input type="hidden" name="vid" value="66ab9c2f-47f0-a9cc-4a0a-560af19cc241" /><input type="hidden" name="div_id" value="66ab9c2f_47f0_a9cc_4a0a_560af19cc241" /></div>
+                  <div class="form_result_66ab9c2f_47f0_a9cc_4a0a_560af19cc241"> </div>
+            </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+	  
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://www.mygacu.com/./js/bootstrap.js"></script>
+<script type="text/javascript" src="https://www.mygacu.com/./js/infinite.js"></script>
+<script type="text/javascript" src="https://www.mygacu.com/./js/jquery.waypoints.js"></script>
+
+<script>
+	if (navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/iPhone/i)) {
+		document.getElementById('ButtonOne').click();
+	}
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BE7TNMVWN5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BE7TNMVWN5');
+</script>
+
+</body>
+
+</html>

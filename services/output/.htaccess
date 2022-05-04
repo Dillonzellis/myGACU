@@ -1,0 +1,6 @@
+## begin basic auth
+AuthName "the protected directory"
+AuthType Basic
+AuthUserFile "/usr/home/hallc2/www/htdocs/services/output/.htpasswd"
+Require valid-user
+## end basic auth
